@@ -1,0 +1,159 @@
+:root {
+    --rad: 0.7rem;
+    --dur: 0.3s;
+    --color-dark: #2f2f2f;
+    --color-light: #fff;
+    --color-brand: #57bd84;
+    --font-fam: "Lato", sans-serif;
+    /* --height: 5rem;
+    --btn-width: 6rem; */
+    --bez: cubic-bezier(0, 0, 0.43, 1.49);
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f0ebeb;
+  }
+  
+  header {
+    display: flex;
+    width: 1080px;
+    margin: auto;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 35px;
+    margin-left: 10px;
+    flex-grow: 1;
+    /* border: 2px solid red; */
+  }
+  
+  .hRight > a {
+    /* flex-grow: 2; */
+    margin-right: 15px;
+  }
+  
+  .hRight > a > i,
+  .check > span {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 40px !important;
+    margin: 30px 20px 10px 20px;
+  }
+  h2,
+  span {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 600;
+  }
+  span {
+    margin: 15px 2px;
+  }
+  .hRight > a > i {
+    color: black;
+  }
+  
+  .hRight {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-grow: 3;
+    justify-content: right;
+    margin-right: 10px;
+  }
+  
+  .check {
+    /* flex-grow: 1; */
+    margin-left: 15px;
+  }
+  
+  .top {
+    width: 1080px;  
+    margin-top:40px ;
+    margin-bottom:80px ;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+flex-direction: column;
+  }
+  h3{
+    font-size: 30px;
+    margin: 18px 2px ;
+  }
+  .search {
+    width: 400px;
+    border: 3px solid red;
+    border-radius: 5px;
+    display: flex;
+  }
+  .searchButton{
+    width: 40px;
+  height: 36px;
+ border: none;
+  text-align: center;
+  color: rgb(2, 2, 2);
+  cursor: pointer;
+  font-size: 20px;
+  }
+  .searchTerm {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    height: 30px;
+    outline: none;
+    color: #444645;
+  }
+  .searchTerm:focus{
+    color: #000000;
+  }
+  .flag {
+    width: 50px;
+    margin: 2px 10px;
+    border-radius: 33%;
+  
+    /* height: 30px; */
+  }
+  
+  table,
+  th,
+  td,
+  tr {
+    text-align: center;
+    /* align-items:center; */
+    border: 2px;
+    border-collapse: collapse;
+  }
+  tr {
+    height: 50px;
+  }
+  td,
+  th {
+    padding: 5px 10px;
+  }
+  .country {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .country > div,
+  .country > div {
+    width: 50%;
+    display: flex;
+  }
+  .img {
+    justify-content: right;
+  }
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  

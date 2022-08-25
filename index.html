@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <script src="https://kit.fontawesome.com/ff43c7e47a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">CountrySearch</h1>
+        <div class="hRight">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-solid fa-square-poll-horizontal"></i></a>
+            <a href=""><i class="fa-solid fa-screwdriver-wrench"></i></a>
+            <a href=""><i class="fa-solid fa-hand-holding-dollar"></i></a>
+        </div>
+    </header>
+    <section class="top">
+        <h3>Country List</h3>
+        <div class="search">
+            <input type="text" class="searchTerm" id="country" placeholder="Search" onkeyup="countrySearch()">
+            <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </section>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.NO</th>
+                    <th>Country</th>
+                    <th>Capital</th>
+                    <th>Currency</th>
+                    <th>continent</th>
+                    <th>Population</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                <tr></tr>
+            </tbody>
+        </table>
+    </section>
+
+</body>
+
+</html>
